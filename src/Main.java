@@ -20,8 +20,8 @@ public class Main {
         System.out.println(" ");
         media = suma / numeros.length;
         System.out.printf("Media = %d\n", media);
-        System.out.println("Numeros mayores a la media: ");
-        //Con este for comprobamos que si un numero es mayor que la media lo muestre.
+        System.out.println("Números mayores a la media: ");
+        //Con este for comprobamos que si un número es mayor que la media lo muestre.
         for (int numero : numeros) {
             if (numero > media) {
                 System.out.print(numero + " ");
